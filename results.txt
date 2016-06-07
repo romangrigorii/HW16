@@ -1,0 +1,16 @@
+Camera portion:
+
+My Camera worked by finding the amount of red in a line, and also the amount of blue in the entire image. Images with high amount of blue came from a shade,
+and so I had to lower the threshold for the detection of red.
+
+Sliders:
+
+My sliders calibrated the thresholds for red and blue color in the image.
+
+What I sent to the PIC:
+
+I calculated two COMs in the image, and then found the angle of the line based on this
+information. To the PIC I sent this angle value. Based on this information I turned y
+my servo. My driving motors were full on to full throttle the whole time.
+
+
